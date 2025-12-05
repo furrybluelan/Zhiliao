@@ -8,7 +8,7 @@ import de.robv.android.xposed.XposedHelpers
 
 class CustomFilterV2 : BaseHook() {
 
-    private val adKeys = listOf("商品", "购买", "咨询", "进店")
+    private val adKeys = listOf("商品", "购买", "咨询", "进店", "感兴趣")
 
     private lateinit var componentCard: Class<*>
     private lateinit var innerDeserializer: Class<*>
